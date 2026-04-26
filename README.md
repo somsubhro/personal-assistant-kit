@@ -64,7 +64,7 @@ The LLM is smart enough on day one. What makes session 50 dramatically better th
 
 | CLI | Provider | Install |
 |---|---|---|
-| [Claude Code](https://claude.ai/code) | Anthropic | `npm install -g @anthropic-ai/claude-code` |
+| [Claude Code](https://claude.ai/code) | Anthropic | `curl -fsSL https://claude.ai/install.sh \| bash` |
 | [Kiro](https://kiro.dev/docs/cli/installation/) | AWS | `curl -fsSL https://cli.kiro.dev/install \| bash` |
 
 ---

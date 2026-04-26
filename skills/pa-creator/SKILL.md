@@ -1,5 +1,5 @@
 ---
-name: assistant-creator
+name: pa-creator
 description: Creates a fully self-contained personal AI assistant from scratch. Use this skill when a user runs pa-init.sh and needs their assistant directory scaffolded, persona defined, and context file generated for their chosen LLM CLI.
 ---
 
@@ -22,8 +22,7 @@ Ask the user the following, one or two questions at a time. Be conversational, n
 5. **Projects**: Are there any active projects you'd like the assistant to know about from the start? Just names and a line of context for each.
 6. **People**: Are there key people the assistant should know about? (e.g. your manager, direct reports, collaborators, clients — name and relationship)
 7. **Preferences**: Any preferences the assistant should respect from the start? (e.g. communication style, tools you use, things you dislike)
-8. **CLI**: Which LLM CLI are you using? (Claude Code or Kiro)
-9. **Tools** (optional): Do you have any MCP servers set up — things like calendar, email, Slack, or task board integrations? If so, which ones? (This is optional — the assistant works fine without them, but if you have them, it can use them.)
+8. **Tools** (optional): Do you have any MCP servers set up — things like calendar, email, Slack, or task board integrations? If so, which ones? (This is optional — the assistant works fine without them, but if you have them, it can use them.)
 
 Don't ask all of these at once. Have a natural back-and-forth. If the user gives short answers or no answers, that's fine — the assistant can learn more over time. If the user doesn't know what MCPs are or doesn't have any, skip it entirely.
 

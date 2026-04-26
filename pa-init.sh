@@ -54,7 +54,7 @@ if ! command -v "$CLI_CMD" &> /dev/null; then
     echo -e "${RED}$CLI_LABEL is not installed.${RESET}"
     case "$CLI_CMD" in
         claude)
-            echo -e "Install it with: ${CYAN}npm install -g @anthropic-ai/claude-code${RESET}"
+            echo -e "Install it with: ${CYAN}curl -fsSL https://claude.ai/install.sh | bash${RESET}"
             ;;
         kiro-cli)
             echo -e "Install it with: ${CYAN}curl -fsSL https://cli.kiro.dev/install | bash${RESET}"
