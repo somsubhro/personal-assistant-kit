@@ -1,6 +1,6 @@
 # personal-assistant-kit
 
-A lightweight bootstrap for creating your own persistent personal AI assistant — powered by the LLM CLI you already use.
+A lightweight bootstrap for creating your own persistent personal AI assistant — powered by the LLM CLI you already use. Read the [full blog post](https://somsubhro.github.io/myRoomOnTheInternet/2026/04/26/ai-assistant.html) on why this repo exists.
 
 ---
 
